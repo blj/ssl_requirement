@@ -4,6 +4,10 @@ SSL requirement adds a declarative way of specifying that certain actions
 should only be allowed to run under SSL, and if they're accessed without it,
 they should be redirected.
 
+## ForceSSL
+
+Rails 3.1's [ForceSSL](https://github.com/rails/rails/blob/master/actionpack/lib/action_controller/metal/force_ssl.rb) supersedes this repository.
+
 ## Example:
 
     class ApplicationController < ActiveRecord::Base
